@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = function (RED) {
-  const dav = require('dav')
+  // const dav = require('dav')
   // const webdav = require('webdav')
   // const fs = require('fs')
   // const IcalExpander = require('ical-expander')
