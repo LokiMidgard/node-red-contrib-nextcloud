@@ -40,4 +40,4 @@ It now returns a JSON in the form of:
 
 ```
 
-The other implementations are unchanged (for now).
+For now only carddav is working.
