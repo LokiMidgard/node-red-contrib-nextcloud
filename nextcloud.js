@@ -210,7 +210,7 @@ module.exports = function (RED) {
           addressBook: selectedAddressBook,
 
         })
-        const vcfList = { 'payload': { 'name': selectedAddressBook.displayName, 'data': [] } };
+        const vcfList = { ...msg, 'payload': { 'name': selectedAddressBook.displayName, 'data': [] } };
         cards.forEach(card => {
 
 
